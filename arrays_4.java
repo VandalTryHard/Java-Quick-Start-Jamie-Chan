@@ -1,7 +1,5 @@
-
-package pkg4_2_arrays;
 import java.util.Arrays; //4.2.1 Методы массивов
-public class Main {
+public class arrays_4 {
     public static void main(String[] args) {
         int[] userAge;
         userAge = new int[] {23, 24, 25, 26, 27, 28, 29, 30};
@@ -37,10 +35,14 @@ public class Main {
         int[] numberSearch = {98, 242, -48, 0, 12, 44, 98, -23, 9};
         Arrays.sort(numberSearch);
         int found = Arrays.binarySearch(numberSearch, -1);
-        System.out.println(Arrays.binarySearch(numberSearch, -1)); //-3 показывает что число -1 находилось бы под индексом 3-1=2
+        System.out.println(found); //-3 показывает что число -1 находилось бы под индексом 3-1=2
         
         //4.2.2 ОПРЕДЕЛЕНИЕ ДЛИНЫ МАССИВА!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-        
+        int[] search1 = {56, 12, 43, 645, -55, 5, -69};
+        System.out.println(search1.length);
+
+        //4.3. ПРИМИТИВНЫЕ ТИПЫ И ССЫЛОЧНЫЕ ТИПЫ
+        //4.4. СТРОКИ И НЕИМЕНЯЕМОСТЬ
         
     }
     
