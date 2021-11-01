@@ -15,5 +15,6 @@ public class switchDemo_contril_commands_6 {
             default: System.out.println("Fail");
             break;
         }
+        input.close();
     }
 }

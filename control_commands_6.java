@@ -9,11 +9,15 @@ public class control_commands_6 {
         int c = 4;
         System.out.println(z!=c);
         // Оператор AND (&&)
-        System.out.println(5==5 && 2>1 && 3!=7);
-        System.out.println(5==5 && 2<1 && 3!=7);
+        int a = 5;
+        int b = 5;
+        System.out.println(a==b && 2>1 && 3!=7);
+        System.out.println(a==b && 2<1 && 3!=7);
         //Опертор OR (||)
-        System.out.println(5==5 || 2<1 || 3==7);
-        System.out.println(5==6 || 2<1 || 3==7);
+        int k = 5;
+        int j = 6;
+        System.out.println(k==b || 2<1 || 3==7);
+        System.out.println(k==j || 2<1 || 3==7);
 
         // 6.2 Команды принятия решений
         // 6.2.1 Команда IF
@@ -52,6 +56,25 @@ public class control_commands_6 {
         }while(counter<0);
 
         //6.4 Команды перехода
-        
+        //6.4.1 Команда BREAK
+        for (int i=0; i<5; i++){
+            System.out.println("i = " + i);
+            if (i == 2)
+            break;
+        }
+        6.4.2 Команда CONTINUE
+        for (int i=0; i<5; i++){
+            System.out.println("i = " + i);
+            if (i == 2)
+                continue;
+            System.out.println("I will not be printed if i=2.");
+        }
+        // 6.5 Обработка исключения
+        // см. ErrorDemo_6_5.java
+        // 6.5.1 Конкретные ошибки
+        // см. ErrorDemo2_6_5.java
+        // 6.5.2 Выдача исключений
+
+
     }
 }

@@ -18,6 +18,6 @@ public class ifDemo_contril_commands_6 {
             System.out.println("Congratulations!");
             System.out.println("You may sign up for the event!");
         }
-
+        input.close();
     }
 }

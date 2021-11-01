@@ -17,5 +17,7 @@ public class scanerInteractivity_5_4{
         input.nextLine();
         String myText = input.nextLine();
         System.out.println("You entered: " + myText);
+
+        input.close();
     }
 }
