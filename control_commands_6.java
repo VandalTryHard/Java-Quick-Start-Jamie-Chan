@@ -62,7 +62,7 @@ public class control_commands_6 {
             if (i == 2)
             break;
         }
-        6.4.2 Команда CONTINUE
+        // 6.4.2 Команда CONTINUE
         for (int i=0; i<5; i++){
             System.out.println("i = " + i);
             if (i == 2)
@@ -74,7 +74,5 @@ public class control_commands_6 {
         // 6.5.1 Конкретные ошибки
         // см. ErrorDemo2_6_5.java
         // 6.5.2 Выдача исключений
-
-
     }
 }
