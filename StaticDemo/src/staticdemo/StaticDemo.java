@@ -27,7 +27,7 @@ public class StaticDemo {
         System.out.println(sd.message);
         sd.displayMessage();
 
-        System.out.println(MyClass.greetings);
-        MyClass.displayGreetings();
+        System.out.println(sd.greetings);
+        sd.displayGreetings();
     }
 }

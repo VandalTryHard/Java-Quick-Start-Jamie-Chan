@@ -8,7 +8,7 @@ import java.util.Arrays;
 
 class MyClass{
     public void printFirstElement(int[] a){
-        System.out.println("The first element is" + a[0]);
+        System.out.println("The first element is " + a[0]);
     }
     public int[] returnArray(){
         int[] a = new int[3];
